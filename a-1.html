@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة امحمد عمران الشخصية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            height: 100%;
+            padding-top: 20px;
+            transition: width 0.3s;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            border-bottom: 1px solid #555;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        .sidebar a:first-child {
+            border-top: 1px solid #555;
+        }
+        .sidebar a:last-child {
+            border-bottom: none;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 40px;
+            background-image: linear-gradient(to right, #ff0000, #0000ff);
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .content h2 {
+            color: #ff0000;
+            font-size: 28px;
+            text-align: center;
+        }
+        .content p {
+            color: #333;
+            font-size: 18px;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .skills li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .skills li:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 12px;
+        }
+        .sidebar a.btn {
+            display: block;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, transform 0.1s;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .sidebar a.btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .sidebar a.btn:focus {
+            outline: none;
+        }
+        .sidebar a:first-child {
+            margin-top: 20px;
+        }
+        .sidebar a:last-child {
+            margin-bottom: 20px;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#home">الصفحة الرئيسية</a>
+        <a href="https://657208090cee8.site123.me/" target="_blank" class="btn">موقع امحمد التجاري</a>
+    </div>
+    <div class="content">
+        <header id="home">
+            <h1>مرحبًا، أنا امحمد عمران</h1>
+        </header>
+        <div class="content">
+            <h2>نبذة عني</h2>
+            <p>أنا طالب ومبرمج. أحب كرة القدم والبرمجة.</p>
+            
+            <div class="skills">
+                <h2>مهاراتي</h2>
+                <ul>
+                    <li>لغة البرمجة: Python</li>
+                    <li>لغة البرمجة: JavaScript</li>
+                    <li>تقنية: HTML & CSS</li>
+                    <li>تقنية: Git & GitHub</li>
+                </ul>
+            </div>
+            
+            <div class="contact">
+                <h2>تواصل معي</h2>
+                <p>رقم الهاتف: <a href="tel:0930954538">0930954538</a></p>
+                <p>البريد الإلكتروني: <a href="mailto:ashgag51@gmail.com">ashgag51@gmail.com</a></p>
+                <p>صفحتي على فيسبوك: <a href="https://www.facebook.com/profile.php?id=100086549647134" target="_blank">امحمد عمران على فيسبوك</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>جميع الحقوق محفوظة © 2024 امحمد عمران</p>
+    </footer>
+</body>
+</html>
